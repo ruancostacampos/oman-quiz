@@ -40,7 +40,7 @@ questions.push(
   },
   {
     question: "How does Oman manage its water resources to ensure sustainable supply?",
-    anwsers: "By conserving and reusing wastewater,By importing water from neighboring countries,By conserving and reusing wastewater",
+    anwsers: "By conserving and reusing wastewater,By importing water from neighboring countries,By limiting water usage for certain activities",
     correct: "By conserving and reusing wastewater",
     explanation: "Oman has implemented measures to conserve and reuse wastewater to ensure a sustainable supply of water. The country has invested in advanced wastewater treatment systems and has implemented strict regulations for water usage."
   }
