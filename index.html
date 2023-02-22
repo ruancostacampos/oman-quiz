@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="quiz.css"/>
+</head>
+<body style="display: flex; align-items: center; justify-content: space-around;">
+    <div id="quiz-container">
+        <div class="quiz-full" id="hideMe">
+           <button onClick="startQuiz()">Start quiz</button>
+        </div>
+        <h1>Let's learn with OmanQuiz</h1>
+        <h2 id="question">1. Question</h2>
+            <ul onClick="selectOption(event)" id="optionsList">
+            <li><strong>A: Answer</strong></li> 
+            <li><strong>B: Answer</strong></li> 
+            <li><strong>C: Answer</strong></li> 
+        </ul>
+        <p id="explanation">...</p>
+        <div>
+            <button id="confirmBtn" onClick="confirm()" disabled>Confirm</button>
+            <button id="nextQuestion" onClick="nextQuestion()" hidden> Next ></button>
+        </div>
+        <div id="finalContainer">
+            <h2>You finished the OmanQuiz.</h2>
+            <h3 id="correctAnswersDisplay">Correct answers: </h3>
+        </div>
+    </div>
+</body>
+</html>
